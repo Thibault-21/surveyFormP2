@@ -1,23 +1,24 @@
 <template>
   <div id="app">
-    <Form />
+    <FormPage />
   </div>
 </template>
 
 <script>
-import Form from './components/Form'
+import FormPage from './components/pages/FormPage'
 
 export default {
   name: 'app',
   components: {
-    Form
+    FormPage
   }
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+
 #app {
-  display: grid;
+  margin: 0px;
   font-family: Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
