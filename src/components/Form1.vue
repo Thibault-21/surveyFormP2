@@ -54,7 +54,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-// @import '../assets/mixins.scss';
+// @import '../style/mixins.scss';
   form { 
     display: inline-grid;
     grid-template-columns: 150px 150px 150px;

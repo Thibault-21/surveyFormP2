@@ -39,7 +39,7 @@
 </script>
 
 <style lang="scss" scoped>
-// @import '../mixins.scss';
+// @import '../style/mixins.scss';
 
 form {
     padding: 15px;

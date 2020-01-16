@@ -18,18 +18,18 @@ export default {
 
 <style lang="scss" scoped>
 // @import '../assets/mixins.scss';
-// @mixin button-next($bg-color, $color, $height, $width, $margin, $padding, $b-radius, $cursor, $border, $display){
-//   background-color: $bg-color;
-//   color: $color;
-//   height : $height; 
-//   width: $width; 
-//   margin: $margin; 
-//   padding: $padding; 
-//   border-radius: $b-radius; 
-//   cursor: $cursor;
-//   border: $border;
-//   grid-column-start: $display;
-// }
+@mixin button-next($bg-color, $color, $height, $width, $margin, $padding, $b-radius, $cursor, $border, $display){
+  background-color: $bg-color;
+  color: $color;
+  height : $height; 
+  width: $width; 
+  margin: $margin; 
+  padding: $padding; 
+  border-radius: $b-radius; 
+  cursor: $cursor;
+  border: $border;
+  grid-column-start: $display;
+}
 .btn-n {
   @include button-next(rgb(86, 96, 240), white, 35px, 80px, 5px, 5px, 5px, pointer, 1px solid rgb(86, 96, 240), 3);
 }

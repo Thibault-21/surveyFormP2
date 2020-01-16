@@ -1,5 +1,7 @@
 <template>
+
   <div class="main">
+    <!-- <img src="'./Image/workplace.jpg"> -->
     <header>
       <slot name="header"></slot>
     </header>
@@ -33,7 +35,7 @@ header, footer {
   margin: 2px 0px 5px 5px;
   border-radius: 5px;
 }
-main {
+main { 
   grid-column-start: 2;
   width: 50%; 
   background-color: white;
@@ -43,4 +45,5 @@ main {
   border-radius: 5px;
   border: 1px solid rgb(86, 96, 240);
 }
+
 </style>

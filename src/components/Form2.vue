@@ -35,7 +35,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+// @import '../style/mixins.scss';
   @mixin button-prev($bg-color, $color, $height, $width, $margin, $padding, $b-radius, $cursor, $border){
   background-color: $bg-color;
   color: $color;
