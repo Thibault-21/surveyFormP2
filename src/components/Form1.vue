@@ -11,7 +11,7 @@ ou est ce en rapport avec le type du button ? -->
         <option value="Other">Other</option>
         </select>
 
-      <input type="text" name="userInfos" v-model="firstName"  placeholder="Your first Name..">
+      <input type="text" name="userInfos" v-model="firstName" placeholder="Your first Name..">
       <input type="text" name="userInfos" v-model="lastName" placeholder="Your last Name..">
       <input type="text" name="userInfos" v-model="email" placeholder="Your email..">
       <input type="text" name="userInfos" v-model="job" placeholder="Your job..">
@@ -45,8 +45,7 @@ export default {
   }, 
     methods: {
       submitNext() {
-        // validation
-        // si tout est bon:
+
         this.$emit('onSubmitNext', this.firstName, this.lastName, this.gender);
       },
     }
