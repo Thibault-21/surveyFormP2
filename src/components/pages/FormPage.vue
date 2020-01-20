@@ -33,7 +33,7 @@
     data() {
       return {
         step: 1,
-        name: "",
+        // name: "",
       }
     },
     methods: {
