@@ -6,9 +6,9 @@ ou est ce en rapport avec le type du button ? -->
     <form method="POST">
       <select class="select" v-model="gender">
         <option disabled value="">Please Select Your Gender</option>
-        <option name="companies">Ms.</option>
-        <option name="companies">Mr</option>
-        <option name="companies">Other</option>
+        <option value="Ms">Ms.</option>
+        <option value="Mr">Mr</option>
+        <option value="Other">Other</option>
         </select>
 
       <input type="text" name="userInfos" v-model="firstName"  placeholder="Your first Name..">

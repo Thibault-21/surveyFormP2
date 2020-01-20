@@ -7,7 +7,7 @@
       <Form1 v-if="step === 2" @onSubmitNext="next" @onSubmitPrev="prev" />
       <Form2 v-if="step === 3" @onSubmitNext="next" @onSubmitPrev="prev"/>
       <Form3 v-if="step === 4" @onSubmit="FinalSubmit" @onSubmitPrev="prev"/> 
-      <p v-if="step === 5">Thank you for participation <strong>{{sex}} {{Fname}} {{Lname}}</strong> !</p>
+      <p v-if="step === 5">Thank you for your participation <strong>{{sex}} {{Fname}} {{Lname}}</strong> !</p>
     <template #footer >
      <h3>by Thibault Decousus</h3>
     </template>

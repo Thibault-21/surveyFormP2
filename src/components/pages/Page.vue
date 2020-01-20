@@ -1,5 +1,4 @@
 <template>
-
   <div class="main">
     <!-- <img src="'./Image/workplace.jpg"> -->
     <header>
